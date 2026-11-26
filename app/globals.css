@@ -1156,3 +1156,108 @@ h2 em {
     letter-spacing: 0.05em;
   }
 }
+
+
+/* Sales landing refresh: scoped to the homepage; legal routes retain their existing styles. */
+.salesLanding {
+  --orange: #ff963e;
+  --line: #302b27;
+  background: radial-gradient(ellipse at 75% 5%, #28190f 0%, transparent 33rem), #0b0b0d;
+  overflow-wrap: anywhere;
+}
+.salesLanding .shell { width: min(1200px, calc(100% - 48px)); }
+.salesLanding .nav { height: 76px; gap: 20px; }
+.salesLanding .navLinks { gap: 24px; }
+.salesLanding .navCta { border-radius: 9px; background: var(--orange); color: #17100b; border-color: var(--orange); white-space: nowrap; }
+.salesLanding .navCta:hover { background: #ffb374; }
+.salesLanding .hero { min-height: 0; grid-template-columns: 1.12fr .88fr; gap: 40px; padding-block: 58px; }
+.salesLanding h1, .salesLanding h2 { text-transform: none; line-height: 1.07; letter-spacing: -.045em; }
+.salesLanding h1 { font-size: clamp(44px, 5.4vw, 79px); margin-block: 20px; }
+.salesLanding h2 { font-size: clamp(32px, 4vw, 56px); }
+.salesLanding .eyebrow, .salesLanding .sectionLabel { color: var(--orange); letter-spacing: .14em; }
+.salesLanding .heroLead { max-width: 55ch; color: #d2cdc7; margin: 0; line-height: 1.65; }
+.salesLanding .heroPrice { display: flex; align-items: center; gap: 16px; margin-top: 24px; }
+.salesLanding .heroPrice strong { font-family: var(--font-display), sans-serif; font-size: 44px; line-height: 1; }
+.salesLanding .heroPrice span { color: #bdb6af; font-size: 12px; line-height: 1.5; }
+.salesLanding .heroActions { gap: 18px; margin-top: 22px; }
+.salesLanding .button { border-radius: 10px; min-height: 52px; letter-spacing: .01em; text-transform: none; font-size: 15px; }
+.salesLanding .button.primary { box-shadow: 0 8px 28px #ff963e20; }
+.salesLanding .button.primary:hover { background: #ffb374; }
+.salesLanding .trustRow { gap: 12px 18px; margin-top: 20px; color: #c1bbb5; }
+.salesLanding .heroVisual { min-width: 0; isolation: isolate; border: 1px solid #48372b; border-radius: 26px; background: radial-gradient(ellipse at center, #392419, #161314 72%); padding: 20px; }
+.salesLanding .heroVisual img { max-height: 490px; }
+.salesLanding .heroGlow { opacity: .08; }
+.salesLanding .floatStat { border-radius: 12px; border-color: #5a4636; }
+.salesLanding .floatStat.left { left: 12px; bottom: 10%; }
+.salesLanding .floatStat.right { right: 12px; top: 10%; }
+.salesLanding .metricBar { background: #141213; }
+.salesLanding .metrics div { padding: 22px 18px; }
+.salesLanding .metrics span { letter-spacing: .06em; }
+.salesLanding .section { padding-block: 76px; scroll-margin-top: 20px; }
+.salesLanding .splitHeading { gap: 44px; align-items: center; }
+.salesLanding .included { background: #111113; }
+.salesLanding .includedGrid, .salesLanding .previewGrid, .salesLanding .painGrid { margin-top: 36px; gap: 16px; }
+.salesLanding .kitCard, .salesLanding .promptCard, .salesLanding .painGrid article, .salesLanding .curriculumBox, .salesLanding .priceCard, .salesLanding .dashboardFrame { min-width: 0; border-radius: 18px; border: 1px solid #343033; background: linear-gradient(155deg,#1c1a1b,#131315); }
+.salesLanding .kitCard { min-height: 230px; padding: 24px; }
+.salesLanding .kitCard:nth-child(1), .salesLanding .kitCard:nth-child(2) { border-color: #765036; background: linear-gradient(145deg,#2b201b,#171517); }
+.salesLanding .kitCard h3 { margin-top: 24px; line-height: 1.3; }
+.salesLanding .kitTop span { font-size: 20px; }
+.salesLanding .formatBadge { border-radius: 5px; }
+.salesLanding .painGrid { border: 0; }
+.salesLanding .painGrid article { min-height: 175px; padding: 24px; }
+.salesLanding .painGrid h3 { margin-top: 20px; }
+.salesLanding .promptCard { justify-content: flex-start; padding: 24px; }
+.salesLanding .promptBox { border-radius: 8px; padding: 14px; }
+.salesLanding .promptTag { display: list-item; cursor: pointer; color: var(--orange); font-size: 12px; letter-spacing: .03em; }
+.salesLanding .promptBox[open] .promptTag { margin-bottom: 12px; }
+.salesLanding .curriculumBox { padding: 28px; }
+.salesLanding .compatPill { border-radius: 8px; }
+.salesLanding .workflow, .salesLanding .trackerInner, .salesLanding .offerInner, .salesLanding .faq { gap: 52px; }
+.salesLanding .step { padding: 20px 8px; }
+.salesLanding .step b { background: #38271b; border-radius: 8px; display: grid; place-items: center; width: 38px; height: 38px; }
+.salesLanding .dashboardFrame { padding: 12px; box-shadow: 0 18px 48px #0006; }
+.salesLanding .dashboardFrame img { border-radius: 8px; }
+.salesLanding .audienceGrid { margin-top: 32px; }
+.salesLanding .audienceGrid div { border-radius: 10px; background: #171719; }
+.salesLanding .offer { background: #181312; }
+.salesLanding .priceCard { border-color: #91603d; padding: 36px; box-shadow: 0 16px 60px #0005; }
+.salesLanding .price { font-size: clamp(66px, 8vw, 92px); }
+.salesLanding .faqList summary { padding: 20px 0; }
+.salesLanding .finalCta { padding: 76px 0; }
+.salesLanding .footer { padding-top: 40px; }
+@media (max-width: 900px) {
+  .salesLanding .hero, .salesLanding .splitHeading, .salesLanding .workflow, .salesLanding .trackerInner, .salesLanding .offerInner, .salesLanding .faq { grid-template-columns: 1fr; gap: 32px; }
+  .salesLanding .heroVisual { max-width: 620px; width: 100%; margin-inline: auto; }
+  .salesLanding .heroVisual img { max-height: 430px; }
+  .salesLanding .section { padding-block: 60px; }
+}
+@media (max-width: 600px) {
+  .salesLanding .shell { width: calc(100% - 32px); }
+  .salesLanding .nav { height: 64px; gap: 10px; }
+  .salesLanding .brand { font-size: 19px; }
+  .salesLanding .navCta { font-size: 10px; padding: 10px; }
+  .salesLanding .hero { padding-block: 30px; gap: 26px; }
+  .salesLanding h1 { font-size: clamp(36px, 10vw, 52px); }
+  .salesLanding .heroLead { font-size: 16px; }
+  .salesLanding .heroActions { gap: 12px; }
+  .salesLanding .heroVisual { min-height: 0; padding: 12px; border-radius: 18px; }
+  .salesLanding .heroVisual img { max-height: 360px; }
+  .salesLanding .floatStat { padding: 7px 9px; gap: 6px; }
+  .salesLanding .floatStat strong { font-size: 20px; }
+  .salesLanding .floatStat span { font-size: 8px; }
+  .salesLanding .metrics div { padding: 15px 10px; gap: 8px; }
+  .salesLanding .metrics strong { font-size: 22px; }
+  .salesLanding .section { padding-block: 48px; }
+  .salesLanding .kitCard { min-height: 0; }
+  .salesLanding .priceCard { padding: 26px 18px; }
+  .salesLanding .curriculumBox { padding: 18px; }
+  .salesLanding .faqList summary { grid-template-columns: 24px 1fr 20px; gap: 8px; }
+  .salesLanding .mobileBar { gap: 10px; padding-bottom: max(10px, env(safe-area-inset-bottom)); }
+  .salesLanding .mobileBar a { border-radius: 9px; text-align: center; }
+  .salesLanding .footer { padding-bottom: 130px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html:has(.salesLanding) { scroll-behavior: auto; }
+  .salesLanding *, .salesLanding *::before, .salesLanding *::after { transition: none !important; animation: none !important; }
+  .salesLanding .button:hover { transform: none; }
+}
