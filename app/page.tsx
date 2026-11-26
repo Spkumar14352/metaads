@@ -188,7 +188,7 @@ const productJsonLd = {
 
 export default function Home() {
   return (
-    <main>
+    <main className="salesLanding" id="top">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
@@ -213,23 +213,22 @@ export default function Home() {
         </a>
       </nav>
 
-      <section className="hero shell" id="top">
+      <section className="hero shell">
         <div className="heroCopy">
           <div className="eyebrow">
             <span aria-hidden="true" /> AI-POWERED CAMPAIGN SYSTEM
           </div>
           <h1>
-            Stop guessing.
+            Plan smarter.
             <br />
-            <em>Build smarter</em>
+            <em>Launch Meta ads</em>
             <br />
-            Meta ads.
+            with AI.
           </h1>
           <p className="heroLead">
-            A practical toolkit for planning, creating, launching, measuring,
-            and improving campaigns with AI—without treating AI output as
-            automatically correct.
+            Get a step-by-step campaign blueprint, 205 AI prompts and an editable performance tracker. Know what to test, what to measure and what to improve before spending more.
           </p>
+          <div className="heroPrice"><strong>₹499</strong><span>One-time payment<br />Six downloadable resources</span></div>
           <div className="heroActions">
             <a
               className="button primary"
@@ -238,13 +237,13 @@ export default function Home() {
             >
               Get instant access — ₹499 <span aria-hidden="true">→</span>
             </a>
-            <a className="textLink" href="#inside">
-              See sample prompts &amp; inside preview ↓
+            <a className="textLink" href="#included">
+              Explore the kit ↓
             </a>
           </div>
           <div className="trustRow">
-            <span>✓ ₹499 one-time payment</span>
-            <span>✓ Instant ZIP download via SuperProfile</span>
+            <span>✓ No subscription</span>
+            <span>✓ Instant ZIP download</span>
             <span>✓ PDF + Excel / Google Sheets</span>
           </div>
         </div>
@@ -299,6 +298,36 @@ export default function Home() {
         </div>
       </div>
 
+      <section className="included section" id="included">
+        <div className="shell">
+          <div className="sectionLabel">THE COMPLETE TOOLKIT</div>
+          <div className="splitHeading compact">
+            <h2>
+              Six resources.
+              <br />
+              <em>One campaign system.</em>
+            </h2>
+            <p>
+              Six connected resources take you from campaign idea to documented
+              post-launch review. Delivered immediately in one organized ZIP.
+            </p>
+          </div>
+          <div className="includedGrid">
+            {included.map((item) => (
+              <article className="kitCard" key={item.number}>
+                <div className="kitTop">
+                  <span>{item.number}</span>
+                  <small className="formatBadge">{item.format}</small>
+                </div>
+                <h3>{item.title}</h3>
+                <strong>{item.stat}</strong>
+                <p>{item.copy}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="problem section shell">
         <div className="sectionLabel">THE REAL PROBLEM</div>
         <div className="splitHeading">
@@ -343,36 +372,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="included section" id="included">
-        <div className="shell">
-          <div className="sectionLabel">THE COMPLETE TOOLKIT</div>
-          <div className="splitHeading compact">
-            <h2>
-              Everything you need.
-              <br />
-              <em>Nothing you don’t.</em>
-            </h2>
-            <p>
-              Six connected resources take you from campaign idea to documented
-              post-launch review. Delivered immediately in one organized ZIP.
-            </p>
-          </div>
-          <div className="includedGrid">
-            {included.map((item) => (
-              <article className="kitCard" key={item.number}>
-                <div className="kitTop">
-                  <span>{item.number}</span>
-                  <small className="formatBadge">{item.format}</small>
-                </div>
-                <h3>{item.title}</h3>
-                <strong>{item.stat}</strong>
-                <p>{item.copy}</p>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section className="preview section shell" id="inside">
         <div className="sectionLabel">LOOK INSIDE THE KIT</div>
         <div className="splitHeading compact">
@@ -393,10 +392,10 @@ export default function Home() {
             <article className="promptCard" key={sample.title}>
               <div className="promptCategory">{sample.category}</div>
               <h3>{sample.title}</h3>
-              <div className="promptBox">
-                <span className="promptTag">SAMPLE PROMPT STRUCTURE</span>
+              <details className="promptBox">
+                <summary className="promptTag">Read sample prompt</summary>
                 <p>“{sample.prompt}”</p>
-              </div>
+              </details>
               <p className="promptOutcome">
                 <strong>Why it works:</strong> {sample.output}
               </p>
