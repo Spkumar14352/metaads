@@ -36,19 +36,19 @@ export default function RefundPolicyPage() {
         </section>
 
         <section>
-          <h2>2. Digital Product Refund Policy</h2>
+          <h2>2. 7-Day Money-Back Guarantee</h2>
           <p>
-            Because the toolkit consists of immediately downloadable, unencrypted digital files (PDF guides, 205 prompts, checklists, and editable Excel templates) that cannot be &ldquo;returned&rdquo; once accessed or downloaded, <strong>all sales are final once the digital files are delivered or downloaded</strong>.
+            If you are not satisfied with the toolkit for any reason, email us within <strong>7 days of your purchase date</strong> and we will refund you in full. Refunds go back to your original payment method through Razorpay and can take a few business days to appear, depending on your bank.
           </p>
           <p>
-            We encourage you to review the complete list of included deliverables, file formats, and sample previews on our landing page before completing your purchase.
+            One refund per customer for this product. Repeated purchase-and-refund patterns may not be honoured.
           </p>
         </section>
 
         <section>
-          <h2>3. Exceptions &amp; Billing Resolution</h2>
+          <h2>3. Billing and Delivery Problems</h2>
           <p>
-            We will promptly issue a full refund or replacement delivery in the following situations:
+            Even after the 7 days, we will promptly issue a full refund or replacement delivery in the following situations:
           </p>
           <ul>
             <li>

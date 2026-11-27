@@ -159,7 +159,7 @@ const faqs = [
   ],
   [
     "What is the refund policy?",
-    "Because all PDF guides, 205 prompts, and editable Excel files are delivered as an instant digital download immediately after purchase, sales are final once delivered. Duplicate charges or verified delivery issues are promptly resolved or refunded by support.",
+    "Every purchase is covered by a 7-day money-back guarantee. If the kit isn't right for you, email support within 7 days of purchase for a full refund to your original payment method.",
   ],
   [
     "Are campaign results guaranteed?",
@@ -552,7 +552,7 @@ export default function Home() {
             <div className="secureNotes">
               <span>Secure Razorpay checkout • Instant ZIP download</span>
               <span>Single-purchaser &amp; client-output licence</span>
-              <span>No recurring subscription or hidden fees</span>
+              <span>7-day money-back guarantee • No subscription</span>
             </div>
             <small className="deliveryNote">
               Pay by UPI, card or netbanking. You go straight to your download
