@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/refund-policy" },
 };
 
-const supportUrl = process.env.NEXT_PUBLIC_SUPPORT_URL || "mailto:support@prodxstore.com";
+const supportUrl = process.env.NEXT_PUBLIC_SUPPORT_URL || "mailto:prodxstoresupport@gmail.com";
 
 export default function RefundPolicyPage() {
   return (

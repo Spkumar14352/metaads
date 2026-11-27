@@ -8,7 +8,7 @@ const privacyUrl = process.env.NEXT_PUBLIC_PRIVACY_URL?.trim() || "/privacy";
 const termsUrl = process.env.NEXT_PUBLIC_TERMS_URL?.trim() || "/terms";
 const refundUrl = process.env.NEXT_PUBLIC_REFUND_URL?.trim() || "/refund-policy";
 const supportUrl =
-  process.env.NEXT_PUBLIC_SUPPORT_URL?.trim() || "mailto:support@prodxstore.com";
+  process.env.NEXT_PUBLIC_SUPPORT_URL?.trim() || "mailto:prodxstoresupport@gmail.com";
 
 const included = [
   {
