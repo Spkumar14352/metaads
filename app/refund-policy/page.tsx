@@ -26,12 +26,12 @@ export default function RefundPolicyPage() {
         <h1>
           Refund &amp; Delivery <em>Policy</em>
         </h1>
-        <p className="legalUpdated">Last updated: October 2026</p>
+        <p className="legalUpdated">Last updated: November 2026</p>
 
         <section>
           <h2>1. Instant Digital Delivery</h2>
           <p>
-            The <strong>PRODXSTORE AI Meta Ads Launch Kit</strong> is delivered digitally via SuperProfile immediately after your payment is confirmed. You will receive instant download access on the SuperProfile confirmation screen as well as a confirmation email containing your access link.
+            The <strong>PRODXSTORE AI Meta Ads Launch Kit</strong> is delivered digitally immediately after your payment is confirmed. Our secure checkout (pay.prodxstore.com, processed by Razorpay) takes you straight to your download page, where you can download the complete ZIP file.
           </p>
         </section>
 
@@ -63,7 +63,7 @@ export default function RefundPolicyPage() {
         <section>
           <h2>4. How to Request Delivery Help or Billing Support</h2>
           <p>
-            If your confirmation email did not arrive (please check your Spam/Promotions tab first) or if you experienced a duplicate payment, email us at{" "}
+            If you could not download the files after payment, or if you experienced a duplicate payment, email us at{" "}
             <a href={supportUrl} className="inlineLink">
               {supportUrl.replace(/^mailto:/i, "")}
             </a>{" "}

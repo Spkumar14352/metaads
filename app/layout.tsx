@@ -18,12 +18,12 @@ const display = Space_Grotesk({
 });
 
 function getSafeMetadataBase(): URL {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://metaads.prodxstore.com";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://metads.prodxstore.com";
   const normalized = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
   try {
     return new URL(normalized);
   } catch {
-    return new URL("https://metaads.prodxstore.com");
+    return new URL("https://metads.prodxstore.com");
   }
 }
 

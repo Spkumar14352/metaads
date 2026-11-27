@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 function getSiteUrl(): string {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://metaads.prodxstore.com";
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim() || "https://metads.prodxstore.com";
   const withProtocol = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
   return withProtocol.replace(/\/+$/, "");
 }
