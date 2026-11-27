@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/terms" },
 };
 
-const supportUrl = process.env.NEXT_PUBLIC_SUPPORT_URL || "mailto:support@prodxstore.com";
+const supportUrl = process.env.NEXT_PUBLIC_SUPPORT_URL || "mailto:prodxstoresupport@gmail.com";
 
 export default function TermsPage() {
   return (
