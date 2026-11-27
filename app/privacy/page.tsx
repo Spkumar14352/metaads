@@ -26,7 +26,7 @@ export default function PrivacyPage() {
         <h1>
           Privacy <em>Policy</em>
         </h1>
-        <p className="legalUpdated">Last updated: October 2026</p>
+        <p className="legalUpdated">Last updated: November 2026</p>
 
         <section>
           <h2>1. Overview</h2>
@@ -39,7 +39,7 @@ export default function PrivacyPage() {
           <h2>2. Information We Collect</h2>
           <ul>
             <li>
-              <strong>Purchase &amp; Delivery Information:</strong> When you complete a purchase through our hosted checkout partner (such as SuperProfile / Razorpay), you provide your name, email address, phone number, and billing details required to process payment and deliver your digital download link.
+              <strong>Purchase &amp; Delivery Information:</strong> When you complete a purchase through our hosted checkout partner (pay.prodxstore.com, with payments processed by Razorpay), you provide your name, email address, phone number, and billing details required to process payment and deliver your digital download link.
             </li>
             <li>
               <strong>Payment Data:</strong> Payment card, UPI, or banking credentials are processed directly by the encrypted checkout provider. We do not store your credit/debit card numbers or banking passwords on our servers.
@@ -63,7 +63,7 @@ export default function PrivacyPage() {
         <section>
           <h2>4. Data Sharing &amp; Third-Party Services</h2>
           <p>
-            We do not sell or rent your personal contact information. Data is shared only with trusted infrastructure providers necessary to operate this service (such as our hosting provider Vercel, checkout and delivery platform SuperProfile, payment gateways, and advertising measurement platforms where applicable).
+            We do not sell or rent your personal contact information. Data is shared only with trusted infrastructure providers necessary to operate this service (such as our hosting provider Vercel, our checkout at pay.prodxstore.com, the payment gateway Razorpay, and advertising measurement platforms where applicable).
           </p>
         </section>
 

@@ -135,7 +135,7 @@ const faqs = [
   ],
   [
     "How do I receive the files after payment?",
-    "Immediately after completing your ₹499 payment on SuperProfile, you get instant download access to the complete organized ZIP file on the confirmation screen, plus an automated backup access link sent to your email.",
+    "Immediately after your ₹499 payment is confirmed on our secure checkout, you are taken to your download page with the complete organized ZIP file. Bookmark that page to download again later.",
   ],
   [
     "Which AI tools and spreadsheet apps work with this kit?",
@@ -550,13 +550,13 @@ export default function Home() {
               Get instant access <span aria-hidden="true">→</span>
             </a>
             <div className="secureNotes">
-              <span>Instant ZIP download via SuperProfile</span>
+              <span>Secure Razorpay checkout • Instant ZIP download</span>
               <span>Single-purchaser &amp; client-output licence</span>
               <span>No recurring subscription or hidden fees</span>
             </div>
             <small className="deliveryNote">
-              Immediate access on confirmation screen + backup download link via
-              email.
+              Pay by UPI, card or netbanking. You go straight to your download
+              page after payment.
             </small>
           </div>
         </div>
