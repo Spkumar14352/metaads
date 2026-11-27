@@ -36,17 +36,19 @@ export default function RefundPolicyPage() {
         </section>
 
         <section>
-          <h2>2. Digital Product Refund Policy</h2>
+          <h2>2. 7-Day Money-Back Guarantee</h2>
           <p>
-            Because the toolkit consists of immediately downloadable, unencrypted digital files (PDF guides, 205 prompts, checklists, and editable Excel templates) that cannot be &ldquo;returned&rdquo; once accessed or downloaded, <strong>all sales are final once the digital files are delivered or downloaded</strong>.
+            If you are not satisfied with the toolkit, you can request a <strong>full refund within 7 days of your purchase date</strong>. Download the files, check they fit your business, and if they don&rsquo;t, email us within the 7 days.
           </p>
-          <p>
-            We encourage you to review the complete list of included deliverables, file formats, and sample previews on our landing page before completing your purchase.
-          </p>
+          <ul>
+            <li>Refund requests must be made within 7 days of the original purchase date.</li>
+            <li>One refund per customer or business for this product. Repeated purchase-and-refund patterns may not be honoured.</li>
+            <li>Approved refunds are returned to your original payment method through Razorpay. Depending on your bank, it can take a few business days to appear.</li>
+          </ul>
         </section>
 
         <section>
-          <h2>3. Exceptions &amp; Billing Resolution</h2>
+          <h2>3. Delivery Problems &amp; Billing Resolution</h2>
           <p>
             We will promptly issue a full refund or replacement delivery in the following situations:
           </p>
@@ -61,9 +63,9 @@ export default function RefundPolicyPage() {
         </section>
 
         <section>
-          <h2>4. How to Request Delivery Help or Billing Support</h2>
+          <h2>4. How to Request a Refund, Delivery Help or Billing Support</h2>
           <p>
-            If you could not download the files after payment, or if you experienced a duplicate payment, email us at{" "}
+            To use the 7-day guarantee, or if you could not download the files after payment, or if you experienced a duplicate payment, email us at{" "}
             <a href={supportUrl} className="inlineLink">
               {supportUrl.replace(/^mailto:/i, "")}
             </a>{" "}
